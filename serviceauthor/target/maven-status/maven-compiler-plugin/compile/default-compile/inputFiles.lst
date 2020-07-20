@@ -1,8 +1,0 @@
-/home/rhsilva/workspace-cloud-conference/serviceauthor/src/main/java/net/rhuanrocha/serviceauthor/author/dtos/AuthorOutDto.java
-/home/rhsilva/workspace-cloud-conference/serviceauthor/src/main/java/net/rhuanrocha/serviceauthor/author/Author.java
-/home/rhsilva/workspace-cloud-conference/serviceauthor/src/main/java/net/rhuanrocha/serviceauthor/RestApplication.java
-/home/rhsilva/workspace-cloud-conference/serviceauthor/src/main/java/net/rhuanrocha/serviceauthor/BeanValidationExceptionMapper.java
-/home/rhsilva/workspace-cloud-conference/serviceauthor/src/main/java/net/rhuanrocha/serviceauthor/author/AuthorRepository.java
-/home/rhsilva/workspace-cloud-conference/serviceauthor/src/main/java/net/rhuanrocha/serviceauthor/author/AuthorService.java
-/home/rhsilva/workspace-cloud-conference/serviceauthor/src/main/java/net/rhuanrocha/serviceauthor/author/AuthorEndpoint.java
-/home/rhsilva/workspace-cloud-conference/serviceauthor/src/main/java/net/rhuanrocha/serviceauthor/author/dtos/AuthorInDto.java

@@ -1,9 +1,0 @@
-net/rhuanrocha/serviceauthor/author/Author.class
-net/rhuanrocha/serviceauthor/Message.class
-net/rhuanrocha/serviceauthor/author/dtos/AuthorOutDto.class
-net/rhuanrocha/serviceauthor/author/AuthorService.class
-net/rhuanrocha/serviceauthor/RestApplication.class
-net/rhuanrocha/serviceauthor/BeanValidationExceptionMapper.class
-net/rhuanrocha/serviceauthor/author/AuthorEndpoint.class
-net/rhuanrocha/serviceauthor/author/AuthorRepository.class
-net/rhuanrocha/serviceauthor/author/dtos/AuthorInDto.class
