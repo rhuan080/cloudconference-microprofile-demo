@@ -1,0 +1,10 @@
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/BookService.java
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/book/BookEndpoint.java
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/book/dtos/BookOutDto.java
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/author/AuthorDto.java
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/book/BookRepository.java
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/BeanValidationExceptionMapper.java
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/book/dtos/BookInDto.java
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/author/AuthorService.java
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/RestApplication.java
+/home/rhsilva/workspace-cloud-conference/servicebook/src/main/java/net/rhuanrocha/servicebook/book/Book.java

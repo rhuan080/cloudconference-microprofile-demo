@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="serviceauthor-service-a:war exploded">
+    <output-path>$PROJECT_DIR$/target/serviceauthor</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>serviceauthor-service-a</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="serviceauthor-service-a" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jnosql.artemis:artemis-document:0.0.9" />
+          <element id="library" level="project" name="Maven: org.jnosql.diana:diana-document:0.0.9" />
+          <element id="library" level="project" name="Maven: org.jnosql.diana:diana-core:0.0.9" />
+          <element id="library" level="project" name="Maven: org.jnosql.diana:jnosql-query-antlr:0.0.9" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr4-runtime:4.7.2" />
+          <element id="library" level="project" name="Maven: org.jnosql.artemis:artemis-core:0.0.9" />
+          <element id="library" level="project" name="Maven: org.jnosql.diana:jnosql-query-api:0.0.9" />
+          <element id="library" level="project" name="Maven: org.jnosql.diana:mongodb-driver:0.0.9" />
+          <element id="library" level="project" name="Maven: org.jnosql.diana:diana-driver-commons:0.0.9" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:3.10.1" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-async:3.10.1" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson:3.10.1" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:3.10.1" />
+          <element id="library" level="project" name="Maven: org.microprofile-ext.openapi-ext:swagger-ui:1.0.3" />
+          <element id="library" level="project" name="Maven: org.webjars:swagger-ui:3.24.3" />
+          <element id="library" level="project" name="Maven: org.webjars.bower:swagger-ui-themes:3.0.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/serviceauthor/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="serviceauthor-service-a/web/Web" />
+    </root>
+  </artifact>
+</component>
