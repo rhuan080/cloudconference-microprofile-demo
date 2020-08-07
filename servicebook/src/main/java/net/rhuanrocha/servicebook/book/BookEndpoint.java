@@ -1,9 +1,11 @@
 package net.rhuanrocha.servicebook.book;
 
 import net.rhuanrocha.servicebook.BookService;
+import net.rhuanrocha.servicebook.author.AuthorRestClient;
 import net.rhuanrocha.servicebook.author.AuthorService;
 import net.rhuanrocha.servicebook.book.dtos.BookInDto;
 import net.rhuanrocha.servicebook.book.dtos.BookOutDto;
+import org.eclipse.microprofile.rest.client.inject.RestClient;
 
 import javax.inject.Inject;
 import javax.validation.Valid;
@@ -22,8 +24,13 @@ public class BookEndpoint {
     @Inject
     private BookService bookService;
 
+    //@Inject
+    //private AuthorService authorService;
+
     @Inject
-    private AuthorService authorService;
+    @RestClient
+    private AuthorRestClient authorRestClient;
+
 
     @GET
     public Response findAll(){
@@ -31,7 +38,7 @@ public class BookEndpoint {
                 .ok(bookService
                         .findAll()
                         .stream()
-                        .map(book -> BookOutDto.of(book, authorService.findById(book.getIdAuthor())))
+                        .map(book -> BookOutDto.of(book, authorRestClient.findById(book.getIdAuthor())))
                         .collect(Collectors.toList()))
                 .build();
     }

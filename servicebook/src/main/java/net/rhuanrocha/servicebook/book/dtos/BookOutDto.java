@@ -3,13 +3,10 @@ package net.rhuanrocha.servicebook.book.dtos;
 import net.rhuanrocha.servicebook.author.AuthorDto;
 import net.rhuanrocha.servicebook.book.Book;
 
-import javax.validation.constraints.NotBlank;
-
 public class BookOutDto {
     private String id;
     private String name;
     private String description;
-
     private AuthorDto author;
 
     public String getId() {
@@ -40,8 +37,8 @@ public class BookOutDto {
         return author;
     }
 
-    public void setAuthor(AuthorDto author) {
-        this.author = author;
+    public void setAuthor(AuthorDto authorDto) {
+        this.author = authorDto;
     }
 
     public static BookOutDto of (Book book){
@@ -52,6 +49,7 @@ public class BookOutDto {
         //bookDto.setIdAuthor(book.getIdAuthor());
         return bookDto;
     }
+
     public static BookOutDto of (Book book, AuthorDto author){
         BookOutDto bookDto = new BookOutDto();
         bookDto.setId(book.getId());
@@ -60,6 +58,8 @@ public class BookOutDto {
         bookDto.setAuthor(author);
         return bookDto;
     }
+
+
 
 
 }

@@ -5,8 +5,6 @@ import net.rhuanrocha.servicebook.book.Book;
 import javax.validation.constraints.NotBlank;
 
 public class BookInDto {
-    
-
 
     @NotBlank(message = "{net.rhuanrocha.Book.name.notblank}")
     private String name;

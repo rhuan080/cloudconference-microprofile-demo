@@ -9,7 +9,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 public class AuthorService {
-
     @Inject
     @ConfigProperty(name = "net.rhuanrocha.servicebook.author.AuthorService.url")
     private String url;
@@ -21,6 +20,7 @@ public class AuthorService {
                 .path(id)
                 .request(MediaType.APPLICATION_JSON)
                 .get();
+
         if(response.getStatus() == Response.Status.OK.getStatusCode()){
             return response.readEntity(AuthorDto.class);
         }

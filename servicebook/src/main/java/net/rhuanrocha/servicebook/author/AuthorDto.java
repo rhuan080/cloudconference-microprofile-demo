@@ -1,7 +1,6 @@
 package net.rhuanrocha.servicebook.author;
 
 public class AuthorDto {
-
     private String id;
     private String name;
 
